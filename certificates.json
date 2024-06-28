@@ -1,0 +1,67 @@
+[
+    {
+        "image": "Photos-001/ai development.png",
+        "description": "AI Development By IBM",
+        "link": "https://courses.edx.org/certificates/2c4cca549d1b4675b553ccfa5b0e8948" 
+    },
+    {
+        "image": "Photos-001/cybersecurity.png",
+        "description": "Cybersecurity Essentials By Cisco",
+        "link": "https://www.netacad.com/portal/profile/1045196973/certi" 
+    },
+    {
+        "image": "Photos-001/datascience.png",
+        "description": "Data Science By IBM",
+        "link": "https://courses.edx.org/certificates/c3d9d2cc0bf9416298dd78a972935d00" 
+    },
+    {
+        "image": "Photos-001/django development.png",
+        "description": "Django Development By IBM",
+        "link": "https://courses.edx.org/certificates/51b53d9458f6434fb025e52f95d6b580" 
+    },
+    {
+        "image": "Photos-001/freecodecamp.png",
+        "description": "Responsive Web Design",
+        "link": "https://www.freecodecamp.org/certification/Harshavardhan123/responsive-web-design" 
+    },
+    {
+        "image": "Photos-001/hackerrank js.png",
+        "description": "JavaScript By HackerRank",
+        "link": "https://www.hackerrank.com/certificates/3d0edfd9d698" 
+    },
+    {
+        "image": "Photos-001/hackerrankcss.png",
+        "description": "CSS By HackerRank",
+        "link": "https://www.hackerrank.com/certificates/a3f96f0794f4" 
+    },
+    {
+        "image": "Photos-001/hackerrankjava.png",
+        "description": "Java By HackerRank",
+        "link": "https://www.hackerrank.com/certificates/ac5af25b2263" 
+    },
+    {
+        "image": "Photos-001/hackerrankpython.png",
+        "description": "Python By HackerRank",
+        "link": "https://www.hackerrank.com/certificates/780165c5587d" 
+    },
+    {
+        "image": "Photos-001/ite.png",
+        "description": "IT Essentials By Cisco",
+        "link": "https://www.credly.com/badges/b2153ffc-5f0d-4239-8587-b8bc142c1de1/linked_in_profile" 
+    },
+    {
+        "image": "Photos-001/pythone1.png",
+        "description": "Python Essentials-1 By Cisco",
+        "link": "https://www.credly.com/badges/173799c0-32f8-43c4-9d8d-06aa260590cf/linked_in_profile" 
+    },
+    {
+        "image": "Photos-001/pythone2.png",
+        "description": "Python Essentials-2 By Cisco",
+        "link": "https://www.credly.com/badges/07b8ccb0-6c80-48d5-ae05-8d0211e48477/linked_in_profile" 
+    },
+    {
+        "image": "Photos-001/webdevelopment.png",
+        "description": "Web Development By IBM",
+        "link": "https://courses.edx.org/certificates/f0af5f3406af41858bbd168d829259db" 
+    }
+]

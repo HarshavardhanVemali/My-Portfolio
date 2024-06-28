@@ -1,0 +1,325 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    font-family: "Open Sans";
+}
+
+:root {
+    --bs-primary: #E9FF09;
+    --bs-primary-light: #E9FF09;
+    --bs-secondary: #010101;
+    --bs-primary-rgb: 0, 40, 40;
+    --bs-secondary-rgb: 1, 1, 1;
+    --bs-border-radius: 0;
+    --bs-body-font-family: "Outfit";
+}
+
+body {
+    font-family: var(--bs-body-font-family), sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--bs-body-font-family), sans-serif;
+    font-weight: 600 !important;
+    line-height: 1.4;
+}
+
+.certifications h2 {
+    color: #E9FF09;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 1.8em;
+}
+
+.certification-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.certificate-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-wrapper img {
+    height: 40vh;
+    width: 40vh;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 5px solid #E9FF09;
+    border-right: 5px solid #E9FF09;
+    cursor: pointer; 
+}
+
+.certificate-description {
+    color: white;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+.certificate-wrapper a {
+    text-decoration: none;
+    color: #E9FF09;
+    padding-top: 10px;
+}
+
+.validate-link {
+    display: inline-block;
+    margin-top: 5px;
+    color: #E9FF09;
+    text-decoration: underline;
+    font-size: 0.9em;
+    border: 2px solid #E9FF09;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center; 
+    line-height: 1;
+}
+
+.validate-link:hover {
+    background-color: #E9FF09;
+    color: #000;
+}
+
+.modal {
+    margin-top: 50px;
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%; 
+    max-height: 90vh; 
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.close {
+    position: absolute;
+    right: 200px;
+    color: #E9FF09;
+    border: 2px solid #E9FF09;
+    padding: 0px 5px 0px 5px ;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 375px) {
+    .certifications h2 {
+        padding-left: 10px;
+        font-size: 1.4em;
+    }
+    
+    .certification-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .certificate-wrapper img {
+        height: auto;
+        width: 90%;
+        margin: 10px 0;
+        border-bottom: 3px solid #E9FF09;
+        border-right: 3px solid #E9FF09;
+    }
+    
+    .certificate-description {
+        font-size: 0.8em;
+    }
+    
+    .validate-link {
+        font-size: 0.8em;
+        padding: 3px 8px;
+    }
+    
+    .modal {
+        position: fixed;
+        padding-top: 30px;
+    }
+    
+    .close {
+        right: 10px;
+        font-size: 10px;
+        top: 10px;
+    }
+}
+
+/* Styles for small to medium screens */
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .certifications h2 {
+        color: #E9FF09;
+        font-size: 1.4em;
+    }
+
+    .certification-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificate-wrapper img {
+        height: auto;
+        width: 90%;
+        margin: 10px 0;
+        border-bottom: 3px solid #E9FF09;
+        border-right: 3px solid #E9FF09;
+    }
+
+    .certificate-description {
+        font-size: 0.8em;
+    }
+
+    .validate-link {
+        font-size: 0.8em;
+        padding: 3px 8px;
+    }
+
+    .modal {
+        position: fixed;
+        padding-top: 30px;
+    }
+
+    .close {
+        right: 20px;
+        font-size: 20px;
+        top: 0px;
+    }
+}
+
+/* Styles for medium screens */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .certifications h2 {
+        color: #E9FF09;
+        font-size: 1.6em;
+    }
+
+    .modal {
+        position: fixed;
+        padding-top: 50px;
+    }
+
+    .close {
+        right: 30px;
+        font-size: 30px;
+        top: 0px;
+    }
+}
+
+/* Styles for medium to large screens */
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+    .certifications h2 {
+        color: #E9FF09;
+        font-size: 1.7em;
+    }
+
+
+    .modal {
+        position: fixed;
+        padding-top: 50px;
+    }
+
+    .close {
+        right: 40px;
+        font-size: 35px;
+        top: 0px;
+    }
+}
+
+/* Styles for large screens */
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+    .certifications h2 {
+        color: #E9FF09;
+        font-size: 1.8em;
+    }
+    .modal {
+        position: fixed;
+        padding-top: 70px;
+    }
+
+    .close {
+        right: 50px;
+        font-size: 40px;
+        top: 10px;
+    }
+}
+
+/* Styles for extra large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1399px) {
+    .certifications h2 {
+        color: #E9FF09;
+        font-size: 1.9em;
+    }
+    .modal {
+        position: fixed;
+        padding-top: 80px;
+    }
+
+    .close {
+        right: 60px;
+        font-size: 45px;
+        top: 10px;
+    }
+}
+
+/* Styles for extra extra large screens */
+@media only screen and (min-width: 1400px) {
+    .modal {
+        position: fixed;
+        padding-top: 90px;
+    }
+
+    .close {
+        right: 70px;
+        font-size: 50px;
+        top: 10px;
+    }
+}
