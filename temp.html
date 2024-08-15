@@ -500,13 +500,6 @@
         function animateScroll() {
           currentScroll += step;
           imageContainer.style.transform = `translateX(${currentScroll}px)`;
-          if (scrollIndicator) {
-            scrollIndicator.style.left = `${(currentIndex / (images.length - 3)) * 100}%`;
-            console.log(
-              'Scroll Indicator Position:',
-              `${(currentIndex / (images.length - 3)) * 100}%`
-            );
-          }
           if (Math.abs(targetScroll - currentScroll) > 0.1) {
             requestAnimationFrame(animateScroll);
           }

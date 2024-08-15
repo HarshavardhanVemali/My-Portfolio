@@ -453,6 +453,9 @@ header {
 .project-wrapper a{
     text-decoration: none;
 }
+#resume{
+    margin-left: 80px;
+}
 footer{
     margin-top: 50px;
     border-top: 1px solid #898989;
@@ -865,6 +868,11 @@ footer h4{
         font-size: 0.8em;
         text-decoration: none;
     }
+    #resume{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
     footer{
         margin-top: 20px;
         padding-top: 1px;
@@ -1166,7 +1174,11 @@ footer h4{
         max-width: 200px;
         justify-content: center;
       }
-      
+      #resume{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
     .skill-group {
         background-color: white;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2088,6 +2100,9 @@ footer h4{
     }
     .project-wrapper a{
         text-decoration: none;
+    }
+    #resume{
+        margin-left: 80px;
     }
     footer{
         margin-top: 50px;
