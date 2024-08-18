@@ -193,7 +193,7 @@ header {
 #aboutimagesformobile{
     display: none;
 }
-#image1 img,#image2 img{
+#image1 img,#image2 video{
     width: 250px;
     height: 250px;
 }
@@ -647,6 +647,7 @@ footer h4{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
     #image1mobile img,#image2mobile video{
         width: 100px;
@@ -659,8 +660,8 @@ footer h4{
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
     #image2mobile video{
-        width: 180px;
-        height: 100px;
+        width: 260px;
+        height: 150px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1043,6 +1044,7 @@ footer h4{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
     #image1mobile img,#image2mobile video{
         width: 110px;
@@ -1055,8 +1057,8 @@ footer h4{
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
     #image2mobile video{
-        width: 180px;
-        height: 100px;
+        width: 320px;
+        height: 180px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1448,8 +1450,8 @@ footer h4{
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
     #image2mobile video{
-        width: 190px;
-        height: 110px;
+        width: 300px;
+        height: 170px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1852,8 +1854,8 @@ footer h4{
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
     #image2mobile video{
-        width: 260px;
-        height: 150px;
+        width: 320px;
+        height: 180px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
