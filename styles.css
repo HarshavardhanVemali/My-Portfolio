@@ -202,8 +202,9 @@ header {
     border: 2px solid #fff;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
 }
-#image2 img{
-    width: 400px;
+#image2 video{
+    width: 440px;
+    height: 250px;
     border-radius: 20px;
     border: 2px solid #fff;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -647,7 +648,7 @@ footer h4{
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #image1mobile img,#image2mobile img{
+    #image1mobile img,#image2mobile video{
         width: 100px;
         height: 100px;
     }
@@ -657,8 +658,9 @@ footer h4{
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
-    #image2mobile img{
-        width: 150px;
+    #image2mobile video{
+        width: 180px;
+        height: 100px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1042,7 +1044,7 @@ footer h4{
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #image1mobile img,#image2mobile img{
+    #image1mobile img,#image2mobile video{
         width: 110px;
         height: 110px;
     }
@@ -1052,8 +1054,9 @@ footer h4{
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
-    #image2mobile img{
-        width: 150px;
+    #image2mobile video{
+        width: 180px;
+        height: 100px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1434,7 +1437,7 @@ footer h4{
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #image1mobile img,#image2mobile img{
+    #image1mobile img,#image2mobile video{
         width: 110px;
         height: 110px;
     }
@@ -1444,8 +1447,9 @@ footer h4{
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
-    #image2mobile img{
-        width: 150px;
+    #image2mobile video{
+        width: 190px;
+        height: 110px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
@@ -1837,7 +1841,7 @@ footer h4{
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #image1mobile img,#image2mobile img{
+    #image1mobile img,#image2mobile video{
         width: 150px;
         height: 150px;
     }
@@ -1847,8 +1851,9 @@ footer h4{
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     }
-    #image2mobile img{
-        width: 200px;
+    #image2mobile video{
+        width: 260px;
+        height: 150px;
         border-radius: 20px;
         border: 2px solid #fff;
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
