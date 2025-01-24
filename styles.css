@@ -676,6 +676,12 @@ footer h4{
         font-size: 20px;
         border: none;
         color: #E9FF09;
+        border-radius: 5px;
+        background: rgba(19, 19, 19, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(19, 19, 19, 0.3);
       }
       .dropdown {
         position: relative;
@@ -694,10 +700,16 @@ footer h4{
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1000;
+        border-radius: 0px 5px 5px 0px;
+        background: rgba(71, 70, 70, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(71, 70, 70, 0.3);
       }
       
       .dropdown-content a {
-        color: black;
+        color: #fff;
         padding: 6px 8px;
         text-decoration: none;
         display: block;
@@ -1131,6 +1143,12 @@ footer h4{
         font-size: 23px;
         border: none;
         color: #E9FF09;
+        border-radius: 5px;
+        background: rgba(19, 19, 19, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(19, 19, 19, 0.3);
       }
       .dropdown {
         position: relative;
@@ -1158,14 +1176,19 @@ footer h4{
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1000;
+        border-radius: 0px 5px 5px 0px;
+        background: rgba(71, 70, 70, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(71, 70, 70, 0.3);
       }
       
       .dropdown-content a {
-        color: black;
+        color: #fff;
         padding: 6px 8px;
         text-decoration: none;
         display: block;
-        border-bottom: 1px solid lightgrey;
       }
       .dropdown:hover .dropbtn {
         background-color: black
@@ -1620,6 +1643,12 @@ footer h4{
         font-size: 30px;
         border: none;
         color: #E9FF09;
+        border-radius: 5px;
+        background: rgba(19, 19, 19, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(19, 19, 19, 0.3);
       }
       .dropdown {
         position: relative;
@@ -1638,14 +1667,19 @@ footer h4{
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1000;
+        border-radius: 0px 5px 5px 0px;
+        background: rgba(71, 70, 70, 0.46);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(71, 70, 70, 0.3);
       }
     
       .dropdown-content a {
-        color: black;
+        color: #fff;
         padding: 6px 8px;
         text-decoration: none;
         display: block;
-        border-bottom: 1px solid lightgrey;
       }
       .dropdown:hover .dropbtn {
         background-color: black;
