@@ -199,8 +199,6 @@ body {
         height: auto;
         width: 90%;
         margin: 10px 0;
-        border-bottom: 3px solid #E9FF09;
-        border-right: 3px solid #E9FF09;
     }
     
     .certificate-description {
@@ -209,7 +207,7 @@ body {
     
     .validate-link {
         font-size: 0.8em;
-        padding: 3px 8px;
+        padding: 8px 8px;
     }
     
     .modal {
@@ -242,8 +240,6 @@ body {
         height: auto;
         width: 90%;
         margin: 10px 0;
-        border-bottom: 3px solid #E9FF09;
-        border-right: 3px solid #E9FF09;
     }
 
     .certificate-description {
@@ -252,7 +248,7 @@ body {
 
     .validate-link {
         font-size: 0.8em;
-        padding: 3px 8px;
+        padding: 8px 8px;
     }
 
     .modal {
