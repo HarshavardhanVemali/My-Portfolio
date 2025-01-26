@@ -14,6 +14,25 @@ html, body {
     --bs-border-radius: 0;
     --bs-body-font-family: "Outfit";
   }
+  * {
+    -webkit-tap-highlight-color: transparent;
+}
+button, a, img {
+    outline: none;
+}
+a:focus,button:focus {
+    outline: none;  
+    box-shadow: none; 
+    -webkit-tap-highlight-color: transparent;
+}
+a:focus {
+    outline: none;
+}
+@media (hover: none) and (pointer: coarse) {
+    a:focus {
+        outline: none;
+    }
+}
 body {
     font-family: var(--bs-body-font-family), sans-serif;
   }
